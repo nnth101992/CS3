@@ -10,7 +10,7 @@
 
 <html>
 <head>
-    <c:import url="../component/head.jsp"/>
+
     <title>LEO BOUTIQUE</title>
 </head>
 <body style="background-image: linear-gradient(#f8f7f7, #101010)">

@@ -25,7 +25,7 @@
 
                     <c:when test="${loggedUserRole != null}">
                         <li>
-                            <a class="nav-link" href="footballServlett">< Back to home |</a>
+                            <a class="nav-link" href="footballServlet">< Back to home |</a>
                         </li>
 <%--                        <li class="nav-item">--%>
 <%--                            <a class="nav-link" href="buyGameServlet">Your library</a>--%>

@@ -17,15 +17,13 @@ public class SecurityConfig {
         List<String> urlPatternsUser = new ArrayList<>();
 
         urlPatternsUser.add("/userServlet");
-        urlPatternsUser.add("/buyGameServlet");
+
 
         mapConfig.put(ROLE_USER, urlPatternsUser);
 
         List<String> urlPatternsAdmin = new ArrayList<>();
 
         urlPatternsAdmin.add("/userServlet");
-        urlPatternsAdmin.add("/gameManagementServlet");
-        urlPatternsAdmin.add("/buyGameServlet");
 
         mapConfig.put(ROLE_ADMIN, urlPatternsAdmin);
     }

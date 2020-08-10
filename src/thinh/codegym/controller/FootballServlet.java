@@ -64,7 +64,7 @@ public class FootballServlet extends HttpServlet {
         FootballItem item = getInfo(request, id);
         itemService.updateItem(id, item);
 
-        request.setAttribute("message", "Game information was updated");
+        request.setAttribute("message", "Item information was updated");
         RequestDispatcher dispatcher = request.getRequestDispatcher("view/football/update.jsp");
         try {
             dispatcher.forward(request, response);

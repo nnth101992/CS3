@@ -9,10 +9,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="view/component/css/detail-slide.js"></script>
-    <c:import url="../component/head.jsp"/>
+<%--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>--%>
+<%--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>--%>
+<%--    <script src="view/component/css/detail-slide.js"></script>--%>
+
     <title>${requestScope.item.name}</title>
 </head>
 <body style="background-image: linear-gradient(#5aabd0, #ffffff);">

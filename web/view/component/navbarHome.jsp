@@ -37,22 +37,22 @@
                             <a class="nav-link" href="userServlet?action=detail">Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="buyGameServlet">Your library</a>
+                            <a class="nav-link" href="#">Your library</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="gamesServlet">Browse</a>
+                            <a class="nav-link" href="footballServlet">Browse</a>
                         </li>
                     </c:when>
 
                     <c:otherwise>
                         <li class="nav-item">
-                            <a class="nav-link" href="gamesServlet">Browse</a>
+                            <a class="nav-link" href="footballServlet">Browse</a>
                         </li>
                     </c:otherwise>
                 </c:choose>
             </ul>
 
-            <form class="form-inline ml-auto" action="gamesServlet?action=find" method="post">
+            <form class="form-inline ml-auto" action="footballServlet?action=find" method="post">
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text bg-dark border-0" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
