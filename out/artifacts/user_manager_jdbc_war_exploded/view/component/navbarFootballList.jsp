@@ -27,9 +27,7 @@
                         <li>
                             <a class="nav-link" href="footballServlet">< Back to home |</a>
                         </li>
-<%--                        <li class="nav-item">--%>
-<%--                            <a class="nav-link" href="buyGameServlet">Your library</a>--%>
-<%--                        </li>--%>
+
                     </c:when>
 
                     <c:otherwise>
