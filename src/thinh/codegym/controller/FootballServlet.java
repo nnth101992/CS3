@@ -36,8 +36,7 @@ public class FootballServlet extends HttpServlet {
             case "create":
                 createNewItem(request, response);
                 break;
-//            case "detail":
-//                break;
+
             case "update":
                 updateItem(request, response);
                 break;

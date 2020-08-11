@@ -97,7 +97,7 @@ public class FootballItemService implements IFootballItemService{
         boolean itemUpdated = false;
         try (Connection connection = MySQLConnUtils.getConnection(); PreparedStatement statement = connection.prepareStatement(UPDATE_ITEM_INFO);) {
             setItemInfo(statement, item);
-            statement.setInt(14, id);
+            statement.setInt(7, id);
             itemUpdated = statement.executeUpdate() > 0;
         } catch (SQLException exception) {
             MySQLException.printSQLException(exception);

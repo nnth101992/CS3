@@ -135,7 +135,7 @@ public class UserService implements IUserService{
         boolean userUpdated = false;
         try (Connection connection = MySQLConnUtils.getConnection(); PreparedStatement statement = connection.prepareStatement(UPDATE_USER_INFO)) {
             setUserInfo(statement, user);
-            statement.setInt(4, id);
+            statement.setInt(5, id);
             userUpdated = statement.executeUpdate() > 0;
         } catch (SQLException exception) {
             MySQLException.printSQLException(exception);
